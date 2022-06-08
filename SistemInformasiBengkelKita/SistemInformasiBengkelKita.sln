@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SistemInformasiBengkelKita", "SistemInformasiBengkelKita\SistemInformasiBengkelKita.vdproj", "{329DF999-C790-410E-85B4-F840E78CC8E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329DF999-C790-410E-85B4-F840E78CC8E6}.Debug|Default.ActiveCfg = Debug
+		{329DF999-C790-410E-85B4-F840E78CC8E6}.Debug|Default.Build.0 = Debug
+		{329DF999-C790-410E-85B4-F840E78CC8E6}.Release|Default.ActiveCfg = Release
+		{329DF999-C790-410E-85B4-F840E78CC8E6}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {358375D5-B141-408B-B165-99775261C14C}
+	EndGlobalSection
+EndGlobal

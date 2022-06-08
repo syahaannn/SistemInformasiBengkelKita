@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="service" msprop:Generator_RowEvHandlerName="serviceRowChangeEventHandler" msprop:Generator_RowDeletedName="serviceRowDeleted" msprop:Generator_RowDeletingName="serviceRowDeleting" msprop:Generator_RowEvArgName="serviceRowChangeEvent" msprop:Generator_TablePropName="service" msprop:Generator_RowChangedName="serviceRowChanged" msprop:Generator_RowChangingName="serviceRowChanging" msprop:Generator_TableClassName="serviceDataTable" msprop:Generator_RowClassName="serviceRow" msprop:Generator_TableVarName="tableservice" msprop:Generator_UserTableName="service">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_service" msprop:Generator_ColumnPropNameInRow="id_service" msprop:Generator_ColumnPropNameInTable="id_serviceColumn" msprop:Generator_ColumnVarNameInTable="columnid_service" msprop:Generator_UserColumnName="id_service" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl_service" msprop:Generator_ColumnPropNameInRow="tgl_service" msprop:Generator_ColumnPropNameInTable="tgl_serviceColumn" msprop:Generator_ColumnVarNameInTable="columntgl_service" msprop:Generator_UserColumnName="tgl_service" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="total_biaya" msprop:Generator_ColumnPropNameInRow="total_biaya" msprop:Generator_ColumnPropNameInTable="total_biayaColumn" msprop:Generator_ColumnVarNameInTable="columntotal_biaya" msprop:Generator_UserColumnName="total_biaya" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="daftar_service" msprop:Generator_RowEvHandlerName="daftar_serviceRowChangeEventHandler" msprop:Generator_RowDeletedName="daftar_serviceRowDeleted" msprop:Generator_RowDeletingName="daftar_serviceRowDeleting" msprop:Generator_RowEvArgName="daftar_serviceRowChangeEvent" msprop:Generator_TablePropName="daftar_service" msprop:Generator_RowChangedName="daftar_serviceRowChanged" msprop:Generator_RowChangingName="daftar_serviceRowChanging" msprop:Generator_TableClassName="daftar_serviceDataTable" msprop:Generator_RowClassName="daftar_serviceRow" msprop:Generator_TableVarName="tabledaftar_service" msprop:Generator_UserTableName="daftar_service">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_service" msprop:Generator_ColumnPropNameInRow="id_service" msprop:Generator_ColumnPropNameInTable="id_serviceColumn" msprop:Generator_ColumnVarNameInTable="columnid_service" msprop:Generator_UserColumnName="id_service" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_service" msprop:Generator_ColumnPropNameInRow="nama_service" msprop:Generator_ColumnPropNameInTable="nama_serviceColumn" msprop:Generator_ColumnVarNameInTable="columnnama_service" msprop:Generator_UserColumnName="nama_service" type="xs:string" minOccurs="0" />
+              <xs:element name="biaya" msprop:Generator_ColumnPropNameInRow="biaya" msprop:Generator_ColumnPropNameInTable="biayaColumn" msprop:Generator_ColumnVarNameInTable="columnbiaya" msprop:Generator_UserColumnName="biaya" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
